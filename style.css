@@ -1,3 +1,4 @@
+/* Setting first header's font details. */
 h1{
     font-family: "Noto Sans", sans-serif;
     font-optical-sizing: auto;
@@ -7,6 +8,7 @@ h1{
     color: #7fff00;
 }
 
+/* Setting the first paragraph/description's font details. */
 p{
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-optical-sizing: auto;
@@ -16,6 +18,7 @@ p{
     color: #7fff00;
 }
 
+/* Setting button details and hover details. */
 #ytButton{
     margin-bottom:8px;
     background-color:darkolivegreen;
