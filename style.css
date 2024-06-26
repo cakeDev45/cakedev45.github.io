@@ -4,7 +4,7 @@ h1{
     font-weight: 500;
     font-style:normal;
     font-variation-settings: "wdth" 100;
-    color: chartreuse;
+    color: #7fff00;
 }
 
 p{
@@ -13,5 +13,5 @@ p{
     font-weight: 200;
     font-style: normal;
     font-variation-settings: "wdth" 100;
-    color: chartreuse;
+    color: #7fff00;
 }
