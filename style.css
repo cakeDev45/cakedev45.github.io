@@ -1,6 +1,5 @@
 /* Setting first header's font details. */
 h1{
-    /* font-family: "Noto Sans", sans-serif; */
     font-optical-sizing: auto;
     font-weight: 500;
     font-style:normal;
@@ -8,12 +7,16 @@ h1{
     color: #7fff00;
 }
 
+
+/* Setting up font usage. */
 @font-face{
+
     font-family: VCROSDMono;
     src:url('fonts/vcr_osd_mono.ttf');
 }
 
 body{
+
     font-family: VCROSDMono;
 }
 
