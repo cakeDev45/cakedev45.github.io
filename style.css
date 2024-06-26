@@ -1,6 +1,6 @@
 /* Setting first header's font details. */
 h1{
-    font-family: "Noto Sans", sans-serif;
+    /* font-family: "Noto Sans", sans-serif; */
     font-optical-sizing: auto;
     font-weight: 500;
     font-style:normal;
@@ -8,9 +8,17 @@ h1{
     color: #7fff00;
 }
 
+@font-face{
+    font-family: VCROSDMono;
+    src:url('fonts/vcr_osd_mono.ttf');
+}
+
+body{
+    font-family: VCROSDMono;
+}
+
 /* Setting the first paragraph/description's font details. */
 p{
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-optical-sizing: auto;
     font-weight: 200;
     font-style: normal;
@@ -25,6 +33,7 @@ p{
     color:chartreuse;
     font-size:25px;
     border-radius: 0%;
+    font-family:VCROSDMono;
 }
 
 #ytButton:hover{
@@ -39,6 +48,7 @@ p{
     color:chartreuse;
     font-size:25px;
     border-radius: 0%;
+    font-family:VCROSDMono;
 }
 
 #itchButton:hover{
@@ -53,6 +63,7 @@ p{
     color:chartreuse;
     font-size:25px;
     border-radius: 0%;
+    font-family:VCROSDMono;
 }
 
 #gjButton:hover{
