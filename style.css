@@ -14,7 +14,6 @@ h2{
     font-variation-settings: "wdth" 100;
     color:#3d93c1
 }
-
 /* SPACE HERE IS RESERVED FOR HEADERS. */
 
 
@@ -29,6 +28,7 @@ body{
 
     font-family: VCROSDMono;
 }
+/* SPACE HERE IS RESERVED FOR SETTING UP FONTS. */
 
 /* Setting the first paragraph/description's font details. */
 p{
@@ -38,7 +38,6 @@ p{
     font-variation-settings: "wdth" 100;
     color: #7fff00;
 }
-
 /* SPACE HERE IS RESERVED FOR PARAGRAPHS. */
 
 /* Setting button details and hover details. */
@@ -101,3 +100,4 @@ p{
     color:white;
     cursor:pointer;
 }
+/* SPACE HERE IS RESERVED FOR SETTING UP BUTTONS. */
