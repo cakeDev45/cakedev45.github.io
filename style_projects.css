@@ -1,0 +1,67 @@
+/* Setting up font usage. */
+@font-face{
+
+    font-family: VCROSDMono;
+    src:url('fonts/vcr_osd_mono.ttf');
+}
+
+body{
+
+    font-family: VCROSDMono;
+}
+/* SPACE HERE IS RESERVED FOR FONT SETUP. */
+
+
+/* Setting up header */
+h1{
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+    color:#3d93c1
+}
+
+#flButton{
+    margin-bottom:8px;
+    background-color:rgb(84, 152, 186);
+    color:rgb(255, 255, 255);
+    font-size:25px;
+    border-radius: 0%;
+    font-family:VCROSDMono;
+}
+
+#flButton:hover{
+    background-color:rgb(9, 167, 140);
+    color:white;
+    cursor:pointer;
+}
+
+#phn2Button{
+    margin-bottom:8px;
+    background-color:rgb(84, 152, 186);
+    color:rgb(255, 255, 255);
+    font-size:25px;
+    border-radius: 0%;
+    font-family:VCROSDMono;
+}
+
+#phn2Button:hover{
+    background-color:rgb(9, 167, 140);
+    color:white;
+    cursor:pointer;
+}
+
+#repoButton{
+    margin-bottom:8px;
+    background-color:rgb(84, 152, 186);
+    color:rgb(255, 255, 255);
+    font-size:25px;
+    border-radius: 0%;
+    font-family:VCROSDMono;
+}
+
+#repoButton:hover{
+    background-color:rgb(9, 167, 140);
+    color:white;
+    cursor:pointer;
+}

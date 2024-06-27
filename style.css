@@ -86,7 +86,7 @@ p{
     cursor:pointer;
 }
 
-#flButton{
+#projButton{
     margin-bottom:8px;
     background-color:rgb(84, 152, 186);
     color:rgb(255, 255, 255);
@@ -95,7 +95,7 @@ p{
     font-family:VCROSDMono;
 }
 
-#flButton:hover{
+#projButton:hover{
     background-color:rgb(9, 167, 140);
     color:white;
     cursor:pointer;
