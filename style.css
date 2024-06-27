@@ -1,4 +1,4 @@
-/* Setting first header's font details. */
+/* Setting headers font details and appearence  */
 h1{
     font-optical-sizing: auto;
     font-weight: 500;
@@ -6,6 +6,16 @@ h1{
     font-variation-settings: "wdth" 100;
     color: #7fff00;
 }
+
+h2{
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+    color:#3d93c1
+}
+
+/* SPACE HERE IS RESERVED FOR HEADERS. */
 
 
 /* Setting up font usage. */
@@ -28,6 +38,8 @@ p{
     font-variation-settings: "wdth" 100;
     color: #7fff00;
 }
+
+/* SPACE HERE IS RESERVED FOR PARAGRAPHS. */
 
 /* Setting button details and hover details. */
 #ytButton{
@@ -71,6 +83,21 @@ p{
 
 #gjButton:hover{
     background-color:green;
+    color:white;
+    cursor:pointer;
+}
+
+#flButton{
+    margin-bottom:8px;
+    background-color:rgb(84, 152, 186);
+    color:rgb(255, 255, 255);
+    font-size:25px;
+    border-radius: 0%;
+    font-family:VCROSDMono;
+}
+
+#flButton:hover{
+    background-color:rgb(9, 167, 140);
     color:white;
     cursor:pointer;
 }
