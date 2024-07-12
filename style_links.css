@@ -106,3 +106,20 @@ p
     color:white;
     cursor:pointer;
 }
+
+#ghButton
+{
+    margin-bottom:8px;
+    background-color:rgb(51, 160, 43);
+    color:rgb(183, 255, 111);
+    font-size:25px;
+    border-radius: 0%;
+    font-family:VCROSDMono;
+}
+
+#ghButton:hover
+{
+    background-color:rgb(0, 44, 20);
+    color:white;
+    cursor:pointer;
+}
