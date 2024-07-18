@@ -1,6 +1,28 @@
 /* Code written by Cake45 - https://github.com/cakeDev45 */
 /* This code is licensed under GPL 3.0, so do as you please with it. */
 
+
+*
+{
+    box-sizing:border-box;
+
+}
+
+.column
+{
+    float:left;
+    width: 33.3%;
+    padding: 5px;
+}
+
+.row::after
+{
+    content:"";
+    display:table;
+    clear:both;
+}
+
+
 /* Setting headers font details and appearence  */
 h1{
     font-optical-sizing: auto;
@@ -11,6 +33,15 @@ h1{
 }
 
 h2{
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style:normal;
+    font-variation-settings: "wdth" 100;
+    color: #7fff00;
+}
+
+h3
+{
     font-optical-sizing: auto;
     font-weight: 500;
     font-style:normal;
